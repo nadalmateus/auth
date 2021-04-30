@@ -6,12 +6,12 @@
   "password": "docker",
   "database": "auth",
   "entities": [
-    "src/app/models/*.ts"
+    "src/models/*.ts"
   ],
   "migrations": [
     "src/database/migrations/*.ts"
   ],
   "cli": {
-    "migrationsDir": ".src/database/migrations"
+    "migrationsDir": "./src/database/migrations"
   }
 }
