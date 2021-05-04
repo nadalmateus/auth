@@ -1,3 +1,3 @@
 import { createConnection } from 'typeorm'
 
-createConnection().then(() => console.log('🎉[DEV] Connected to Database'))
+createConnection().then(() => console.log('[ON] Connected to Database'))

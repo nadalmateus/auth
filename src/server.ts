@@ -10,4 +10,4 @@ app.use(helmet())
 
 app.use(routes)
 
-app.listen(3333, () => console.log('🎉[DEV] Server Up on http://localhost:3333/'))
+app.listen(3333, () => console.log('[ON] Server Up on http://localhost:3333/'))
