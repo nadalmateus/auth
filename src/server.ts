@@ -1,8 +1,8 @@
 import express from 'express'
-import routes from './routes'
+import helmet from 'helmet'
 import 'reflect-metadata'
 import './database/databaseConnection'
-import helmet from 'helmet'
+import routes from './routes'
 
 const app = express()
 app.use(express.json())
